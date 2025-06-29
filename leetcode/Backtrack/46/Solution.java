@@ -31,7 +31,6 @@ public class Solution {
                 init.removeLast();
             }
         }
-        init = new ArrayList<>();
     }
 
     public static void printList(List<Integer> list) {
