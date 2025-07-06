@@ -14,7 +14,7 @@ func twoSum(nums []int, target int) []int {
 	pos := make(map[int]int)
 	for i, n := range nums {
 		value, exists := pos[target - n]
-		if exists  {
+		if exists {
 			return []int{value, i}
 		} else {
 			pos[n] = i
